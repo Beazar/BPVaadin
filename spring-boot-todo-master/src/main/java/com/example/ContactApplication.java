@@ -17,7 +17,7 @@ public class ContactApplication {
 	public CommandLineRunner loadData(ContactRepository repository) {
 		return (args) -> {
 			repository.save(new Contact("Bill", "Gates", "https://www.toolshero.nl/wp-content/uploads/bill-gates-toolshero.jpg", "046125464"));
-			repository.save(new Contact("Jon", "Snow", "https://img.static-smb.be/a/view/q75/w720/h480/1811048/jon-snow.png", "624189294"));
+			repository.save(new Contact("Jon", "Snow", "https://i.pinimg.com/236x/33/c4/85/33c48517848b291aee1edb07fe2d078d--jon-snow.jpg", "624189294"));
 			repository.save(new Contact("Donald", "Duck", "http://spreekbeurten.info/wp-content/uploads/DonaldDuck.jpg", "777637425437"));
 		};
 	}
